@@ -113,9 +113,6 @@ PRODUCT_PACKAGES += \
     libGLESv2_adreno \
     libQTapGLES \
     libq3dtools_adreno \
-    vendor.qti.hardware.bluetooth_audio@2.0-impl \
-    vendor.qti.hardware.bluetooth_sar@1.0-impl \
-    vendor.qti.hardware.btconfigstore@1.0-impl \
     vulkan.msm8953 \
     libC2D2 \
     libCB \
@@ -142,7 +139,6 @@ PRODUCT_PACKAGES += \
     libaudioconfigstore \
     libaudioparsers \
     libbccQTI \
-    libbluetooth_audio_session_qti \
     libc2d30_bltlib \
     libcne \
     libcneapiclient \
@@ -200,7 +196,6 @@ PRODUCT_PACKAGES += \
     vendor.display.color@1.0 \
     vendor.display.postproc@1.0 \
     vendor.qti.data.factory@2.0 \
-    vendor.qti.hardware.bluetooth_sar@1.0 \
     vendor.qti.hardware.data.cne.internal.api@1.0 \
     vendor.qti.hardware.data.cne.internal.constants@1.0 \
     vendor.qti.hardware.data.cne.internal.server@1.0 \
@@ -230,6 +225,9 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0-impl-qti \
     vendor.qti.gnss@3.0-impl \
     vendor.qti.hardware.alarm@1.0-impl \
+    vendor.qti.hardware.bluetooth_sar@1.1-impl \
+    vendor.qti.hardware.btconfigstore@1.0-impl \
+    vendor.qti.hardware.btconfigstore@2.0-impl \
     lib-imsSDP \
     lib-imscmservice \
     lib-imsdpl \
@@ -291,6 +289,7 @@ PRODUCT_PACKAGES += \
     libsecureui_svcsock \
     libsettings \
     libslimclient \
+    libsoc_helper \
     libssd \
     libsystem_health_mon \
     libthermalfeature \
@@ -311,6 +310,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.gnss@3.0-service \
     vendor.qti.gnss@3.0 \
     vendor.qti.hardware.alarm@1.0 \
+    vendor.qti.hardware.bluetooth_sar@1.0 \
+    vendor.qti.hardware.bluetooth_sar@1.1 \
     vendor.qti.hardware.fm@1.0 \
     vendor.qti.hardware.radio.am@1.0 \
     vendor.qti.hardware.radio.ims@1.0 \
