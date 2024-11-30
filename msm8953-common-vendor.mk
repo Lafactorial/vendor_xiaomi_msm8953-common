@@ -433,7 +433,6 @@ PRODUCT_PACKAGES += \
     tftp_server \
     thermal-engine \
     time_daemon \
-    wcnss_service \
     xtra-daemon \
     dpmd
 
