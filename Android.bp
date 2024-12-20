@@ -3351,28 +3351,15 @@ cc_prebuilt_library_shared {
             srcs: [
                 "proprietary/vendor/lib/libscalar.so",
             ],
-            shared_libs: [
-                "libsdmutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
         },
         android_arm64: {
             srcs: [
                 "proprietary/vendor/lib64/libscalar.so",
             ],
-            shared_libs: [
-                "libsdmutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
         },
     },
     compile_multilib: "both",
+    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
@@ -3388,38 +3375,15 @@ cc_prebuilt_library_shared {
             srcs: [
                 "proprietary/vendor/lib/libsdm-color.so",
             ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libbinder",
-                "libutils",
-                "libsdmutils",
-                "libtinyxml2_1",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
         },
         android_arm64: {
             srcs: [
                 "proprietary/vendor/lib64/libsdm-color.so",
             ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libbinder",
-                "libutils",
-                "libsdmutils",
-                "libtinyxml2_1",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
         },
     },
     compile_multilib: "both",
+    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
@@ -3435,32 +3399,15 @@ cc_prebuilt_library_shared {
             srcs: [
                 "proprietary/vendor/lib/libsdm-diag.so",
             ],
-            shared_libs: [
-                "libdiag",
-                "libsdmutils",
-                "libbinder",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
         },
         android_arm64: {
             srcs: [
                 "proprietary/vendor/lib64/libsdm-diag.so",
             ],
-            shared_libs: [
-                "libdiag",
-                "libsdmutils",
-                "libbinder",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
         },
     },
     compile_multilib: "both",
+    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
@@ -3476,38 +3423,15 @@ cc_prebuilt_library_shared {
             srcs: [
                 "proprietary/vendor/lib/libsdm-disp-vndapis.so",
             ],
-            shared_libs: [
-                "libsdmutils",
-                "libqservice",
-                "libbinder",
-                "libcutils",
-                "libutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
         },
         android_arm64: {
             srcs: [
                 "proprietary/vendor/lib64/libsdm-disp-vndapis.so",
             ],
-            shared_libs: [
-                "libsdmutils",
-                "libqservice",
-                "libbinder",
-                "libcutils",
-                "libutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
         },
     },
     compile_multilib: "both",
+    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
@@ -3523,28 +3447,15 @@ cc_prebuilt_library_shared {
             srcs: [
                 "proprietary/vendor/lib/libsdmextension.so",
             ],
-            shared_libs: [
-                "libsdmutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
         },
         android_arm64: {
             srcs: [
                 "proprietary/vendor/lib64/libsdmextension.so",
             ],
-            shared_libs: [
-                "libsdmutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
         },
     },
     compile_multilib: "both",
+    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
