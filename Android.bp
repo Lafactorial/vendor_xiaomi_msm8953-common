@@ -9942,7 +9942,6 @@ cc_prebuilt_binary {
                 "libnl",
                 "libqmi_cci",
                 "libqmi_common_so",
-                "libwpa_client",
                 "libdiag",
                 "libc++",
                 "libc",
