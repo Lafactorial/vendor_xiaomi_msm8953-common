@@ -9934,7 +9934,7 @@ cc_prebuilt_binary {
         android_arm64: {
             srcs: [
                 "proprietary/vendor/bin/lowi-server",
-        },
+            ],
     },
     compile_multilib: "64",
     check_elf_files: false,
