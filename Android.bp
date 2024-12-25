@@ -7109,7 +7109,6 @@ cc_prebuilt_library_shared {
                 "libqti_vndfwk_detect",
                 "vendor.qti.hardware.data.cne.internal.server@1.0",
                 "vendor.qti.hardware.data.cne.internal.api@1.0",
-                "libwpa_client",
                 "libc++",
                 "libc",
                 "libm",
